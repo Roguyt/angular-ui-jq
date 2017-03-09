@@ -16,7 +16,7 @@
  *
  * @example <input ui-jq="datepicker" ui-options="{showOn:'click'},secondParameter,thirdParameter" ui-refresh="iChange">
  */
-angular.module('ui.jq', ['ui.load'])
+angular.module('ui.jq', [])
 .value('uiJqConfig', {})
 .directive('uiJq', ['uiJqConfig', '$timeout', 
     function uiJqInjectingFunction(uiJqConfig, $timeout) {
