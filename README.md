@@ -1,6 +1,9 @@
 angular-ui-jq
 ==================
 
+This fork remove ui-load & JQ_CONFIG constant dependency required for lazyload.
+Just require it in your html and app dependency and you're good.
+
 General-purpose jQuery wrapper. Simply pass the plugin name as the expression.
 
 It is possible to specify a default set of parameters for each jQuery plugin.
